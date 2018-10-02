@@ -1,0 +1,25 @@
+html {
+    background-image: url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+div img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+div iframe {
+    border: 2px solid yellow;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
