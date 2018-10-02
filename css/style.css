@@ -6,6 +6,7 @@ html {
 h1 {
     text-align: center;
     color: white;
+    margin-left: 20px
 }
 div img {
     position: absolute;
@@ -20,6 +21,24 @@ header {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    margin-bottom: 50px;   
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    color: white;
+}
+
+main p {
     margin-bottom: 50px;
-    
+    font-size: 50px;
+}
+
+body > main > center > p > a {
+    color: white;
+    text-decoration: none;
+}
+body > main > center > p > a:hover {
+    color: red;
 }
